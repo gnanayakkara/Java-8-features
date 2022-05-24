@@ -1,4 +1,4 @@
-package lambdabasics;
+package lambdabasics.unit1;
 
 /*
  * 23 May 2022

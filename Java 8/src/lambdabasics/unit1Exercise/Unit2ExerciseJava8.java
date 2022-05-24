@@ -1,8 +1,9 @@
-package lambdabasics.unit1;
+package lambdabasics.unit1Exercise;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Predicate;
 
 /*
  * 24 May 2022
@@ -24,7 +25,7 @@ public class Unit2ExerciseJava8 {
 
 		// Step 3 Create a method that prints all the people that have last name
 		// beginning with C
-		System.out.println("Print all the people with last Name begining with c");
+		System.out.println("Print all the people with last Name begining with c"); 
 		printConditionally(people, p -> p.getLastName().startsWith("C"));
 		
 		// Step 4 Create a method that prints all the people that have last name beginning with C
@@ -34,10 +35,10 @@ public class Unit2ExerciseJava8 {
 		
 	}
 
-	private static void printConditionally(List<Person> people, Condition condition) {
+	private static void printConditionally(List<Person> people, Predicate<Person> predicate) {
 
 		for (Person person : people) {
-			if (condition.test(person)) {
+			if (predicate.test(person)) {
 				System.out.println(person);
 			}
 		}

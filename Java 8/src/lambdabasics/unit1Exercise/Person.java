@@ -1,4 +1,4 @@
-package lambdabasics.unit1;
+package lambdabasics.unit1Exercise;
 
 /*
  * 24 May 2022
