@@ -8,6 +8,7 @@ import java.util.function.Predicate;
 
 /*
  * 24 May 2022
+ * https://youtu.be/yubVRLP9Htw?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3
  */
 
 public class Unit2ExerciseJava8 {
